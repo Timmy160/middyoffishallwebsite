@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import MainimageLeft from '../assets/IMG/MainimageRight.png';
-import MainimageRight from '../assets/IMG/MainimageLeft.png';
+import  MainimageRight from '../assets/IMG/MainimageRight.png';
+import  MainimageLeft from '../assets/IMG/MainimageLeft.png';
 
 function Show() {
   const containerVariants = {
