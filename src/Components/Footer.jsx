@@ -97,7 +97,7 @@ function Footer() {
             <div className="flex gap-8 text-sm">
               <a href="#about" className="hover:text-white transition-colors duration-200">BIO</a>
               <a href="#discography" className="hover:text-white transition-colors duration-200">Discography</a>
-              <a href="#videos" className="hover:text-white transition-colors duration-200">Videos</a>
+              <a href="#video" className="hover:text-white transition-colors duration-200">Videos</a>
             </div>
 
             {/* Social Icons Group */}
