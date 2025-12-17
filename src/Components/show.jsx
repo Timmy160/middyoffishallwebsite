@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import  MainimageRight from '../assets/IMG/MainimageRight.png';
-import  MainimageLeft from '../assets/IMG/MainimageLeft.png';
+import  MainImageRight from '../assets/IMG/MainImageRight.png';
+import  MainImageLeft from '../assets/IMG/MainImageLeft.png';
 
 function Show() {
   const containerVariants = {
@@ -30,7 +30,7 @@ function Show() {
         {/* Left Image (Top on Mobile) */}
         <div className="relative w-full h-1/2 md:w-1/2 md:h-full overflow-hidden border-b border-white/10 md:border-b-0">
           <img
-            src={MainimageLeft}
+            src={MainImageLeft}
             alt="Main artist face left"
             className="w-full h-full object-cover object-center md:object-right-top brightness-[0.45] md:brightness-50"
           />
@@ -39,7 +39,7 @@ function Show() {
         {/* Right Image (Bottom on Mobile) */}
         <div className="relative w-full h-1/2 md:w-1/2 md:h-full overflow-hidden">
           <img
-            src={MainimageRight}
+            src={MainImageRight}
             alt="Main artist face right"
             className="w-full h-full object-cover object-center md:object-left-top brightness-[0.45] md:brightness-50"
           />
