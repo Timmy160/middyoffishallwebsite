@@ -1,0 +1,22 @@
+  @import "tailwindcss";
+
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+ @font-face {
+  font-family: 'Cinema Sunday';
+  src: url('/path/to/cinema-sunday.woff2') format('woff2'),
+       url('/path/to/cinema-sunday.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
